@@ -1,11 +1,23 @@
 {
-  "name": "lib",
+  "name": "vue-dnr",
   "type": "module",
   "version": "0.0.0",
   "files": [
     "dist",
     "src"
   ],
+  "main": "./dist/index.es.js",
+  "types": "./dist/types/index.d.ts",
+  "keywords": ["vue", "resize", "drag", "component"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simon1uo/vue-dnr.git"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/simon1uo/vue-dnr",
+  "bugs": {
+    "url": "https://github.com/simon1uo/vue-dnr/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "rimraf dist && vue-tsc && vite build",

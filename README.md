@@ -1,8 +1,6 @@
-# placeholder
+# Vue DnR
 
-_description_
-
-> replace all `lib` with your vue component library name.
+A vue draggable and resizable component library.
 
 License
 MIT License © 2023-PRESENT Simon Luo
